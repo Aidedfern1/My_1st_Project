@@ -17,12 +17,20 @@ print(id(otroNumero))
 def fun():
   print("Hello There!")
 
-def CircleArea(r:float) -> float:
+def CircleArea(r:float):
   area=m.pi*(r**2)
 
   return area
 
+def SquareArea(L):
+  areaS= L**2
+
+  return areaS
+
 fun()
 r= 4
 ans=CircleArea(r)
+ans2= SquareArea(12)
 print("The area of your circle is {}".format(ans))
+print("The area of your square is {}".format(ans2))
+
