@@ -11,3 +11,9 @@ numero = 1
 otroNumero = 2
 print(id(numero))
 print(id(otroNumero))
+
+def fun():
+  print("Hello There!")
+
+
+fun()
