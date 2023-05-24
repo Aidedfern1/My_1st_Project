@@ -34,3 +34,5 @@ ans2= SquareArea(12)
 print("The area of your circle is {}".format(ans))
 print("The area of your square is {}".format(ans2))
 
+val = input("Enter your value: \n")
+print(val)
