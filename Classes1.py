@@ -7,6 +7,14 @@ class Person:
         self.last_name = last_name
         self.catch_phrase= catch_phrase
 
+    def walk(self):
+        print("Walking...")
+
+    def run(self):
+        print("Running...")
+
 user = Person(25,80,177,"Jon","Snow","You know nothing,Jon Snow")
 
 print(user.catch_phrase)
+
+user.walk()
