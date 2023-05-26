@@ -1,5 +1,5 @@
 class Bottle:
-    def __init__(self,volume,type_):
+    def __init__(self,volume: int,type_:str):
         self.volume = volume
         self.type_ = type_
 
@@ -12,4 +12,11 @@ class Bottle:
     def recycle(self):
         print("Recycling")
 
-Bottle.fill     
+Agua = Bottle(500,"pet")
+
+print(Agua.volume)
+print(Agua.type_)
+
+Agua.fill()
+Agua.pour()
+Agua.recycle()
