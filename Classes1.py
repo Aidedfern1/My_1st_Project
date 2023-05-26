@@ -18,3 +18,4 @@ user = Person(25,80,177,"Jon","Snow","You know nothing,Jon Snow")
 print(user.catch_phrase)
 
 user.walk()
+user.run()
