@@ -14,3 +14,4 @@ file.close()
 
 fileR = open("TestPy2.txt", "r")
 print (fileR.read())
+fileR.close()
