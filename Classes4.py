@@ -12,4 +12,5 @@ class Company:
 obj = Company("Angel", "ZF", "Monterrey")
 obj.show()
 
-print(obj.name, obj.company, obj.city)
+print(obj.name, obj.company)
+print(obj.city)
