@@ -13,4 +13,4 @@ order= Burger("Big", "no tomato", "lettuce", "cheese","ketchup")
 order.showOrder()
 
 print(order.lettuce,order.cheese, order.seasoning)
-
+print(order.size + " size burger!")
