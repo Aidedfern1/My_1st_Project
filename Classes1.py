@@ -1,4 +1,8 @@
 class Person:
+    """
+    Provides some arithmetic functions
+    """
+    
     def __init__(self,age,weight,height,first_name,last_name,catch_phrase):
         self.age = age
         self.weight = weight
