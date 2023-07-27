@@ -1,4 +1,4 @@
-"""
+""""
 Elaborar un script de Python que reciba como argumentos:
 arg0 = Ubicacion de un archivo.
 arg1 = Comando a ejecutar; "--read, --pattern [pattern]"
